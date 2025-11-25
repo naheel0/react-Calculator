@@ -3,8 +3,9 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
+  base: '/react-Calculator/', 
   plugins: [
-    react(),       // 👈 adds React JSX transform support
-    tailwindcss(), // 👈 keeps Tailwind working
+    react(),       
+    tailwindcss(),
   ],
 })
